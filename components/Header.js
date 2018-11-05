@@ -10,7 +10,6 @@ const Logo = styled.h1`
   z-index: 2;
   transform: skew(-7deg);
   a {
-    text-decoration: none;
     color: white;
     text-transform: uppercase;
     background: ${props => props.theme.red};
@@ -37,7 +36,7 @@ const StyledHeader = styled.header`
   .sub-bar {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 1px solid ${props => props.theme.lightGray};
+    border-bottom: 1px solid ${props => props.theme.lightgrey};
   }
 `;
 
@@ -46,7 +45,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>E Shop</a>
+          <a>E-Shop</a>
         </Link>
       </Logo>
       <Nav />
