@@ -321,7 +321,7 @@ var Nav = function Nav() {
       lineNumber: 7
     },
     __self: this
-  }, "items")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "shop")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/sell",
     __source: {
       fileName: _jsxFileName,
@@ -437,7 +437,7 @@ var theme = {
   grey: '#3a3a3a',
   lightgrey: '#e1e1e1',
   offWhite: '#ededed',
-  maxWidth: '1200px',
+  maxWidth: '1000px',
   bs: '0 12px 24px 0 rgba(0, 0, 0, 0.09)'
 };
 Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["injectGlobal"])(_templateObject(), theme.black);
